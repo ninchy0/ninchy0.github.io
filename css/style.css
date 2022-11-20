@@ -150,12 +150,14 @@ h2{
     width: 100%;
 }
 
+
 .timeline *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    text-align: center;
 }
 
 .timeline h3{
@@ -228,9 +230,11 @@ h2{
     font-weight: 400;
     font-size: 14px;
     font-family: inherit;
-    padding: 5px 10px;
-    margin-bottom: 15px;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    line-height: 2;
 }
+
 
 .timeline ul li h2{
     font-weight: 400;
@@ -242,6 +246,7 @@ h2{
     margin: 5px 0;
     font-size: 12px;
 }
+
 
 /* Image Grid */
 .row .column img{
